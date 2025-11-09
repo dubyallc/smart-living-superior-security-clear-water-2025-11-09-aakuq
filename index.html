@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Smart Living, Superior Security, Clear Water - Upgrade your lifestyle with automated convenience, robust protection, and advanced filtration systems.">
+    <meta name="keywords" content="smart home, security, water filtration, automation">
+    <meta name="author" content="Duby LLC">
+    <title>Smart Living, Superior Security, Clear Water | Duby LLC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate-fade-in-up {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+        
+        .delay-100 { animation-delay: 0.1s; }
+        .delay-200 { animation-delay: 0.2s; }
+        .delay-300 { animation-delay: 0.3s; }
+        
+        .gradient-accent {
+            background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+        }
+        
+        .gradient-dark {
+            background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-gray-900 bg-opacity-95 backdrop-blur-md border-b border-gray-800">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 rounded-full gradient-accent flex items-center justify-center">
+                    <i class="fas fa-home text-white text-lg"></i>
+                </div>
+                <span class="text-xl font-bold text-white hidden sm:inline">Duby LLC</span>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">Features</a>
+                <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">Benefits</a>
+                <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">Testimonials</a>
+                <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">FAQ</a>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-button md:hidden text-white focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-lg p-2" aria-label="Toggle mobile menu">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+            
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden absolute top-full left-0 right-0 bg-gray-800 border-b border-gray-700 md:hidden">
+                <div class="flex flex-col space-y-4 px-4 py-6">
+                    <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">Features</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">Benefits</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">Testimonials</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">FAQ</a>
+                    <a href="https://api.leadconnectorhq.com/widget/form/1joHvpGOJwQ91mVnYpAJ" class="gradient-accent text-white px-6 py-2 rounded-full font-bold text-center hover:shadow-lg transition-all duration-300">Get Started</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 pt-20 px-4 sm:px-6 lg:px-8">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-20 left-10 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse"></div>
+            <div class="absolute top-40 right-10 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style="animation-delay: 2s;"></div>
+        </div>
+
+        <div class="relative z-10 max-w-4xl mx-auto text-center">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-6 animate-fade-in-up">
+                Smart Living, Superior Security, <span class="gradient-accent bg-clip-text text-transparent">Clear Water</span>
+            </h1>
+            
+            <p class="text-lg sm:text-xl text-gray-300 mb-8 leading-relaxed animate-fade-in-up delay-100 max-w-2xl mx-auto">
+                Upgrade your lifestyle with automated convenience, robust protection, and advanced filtration technology. Experience the perfect harmony of comfort, safety, and wellness in your home.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up delay-200">
+                <a href="https://api.leadconnectorhq.com/widget/form/1joHvpGOJwQ91mVnYpAJ" class="gradient-accent text-white px-8 py-4 rounded-full font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center space-x-2">
+                    <span>Get Started Today</span>
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                    </svg>
+                </a>
+                <button class="px-8 py-4 rounded-full font-bold text-lg border-2 border-gray-600 text-white hover:border-white hover:shadow-lg transition-all duration-300 flex items-center space-x-2">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"></path>
+                    </svg>
+                    <span>Watch Demo</span>
+                </button>
+            </div>
+
+            <!-- Stats -->
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-8 mt-16 animate-fade-in-up delay-300">
+                <div class="text-center">
+                    <div class="text-3xl sm:text-4xl font-bold text-blue-400">10K+</div>
+                    <p class="text-gray-400 text-sm mt-2">Happy Customers</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl sm:text-4xl font-bold text-blue-400">99.9%</div>
+                    <p class="text-gray-400 text-sm mt-2">Uptime Guarantee</p>
+                </div>
+                <div class="text-center col-span-2 md:col-span-1">
+                    <div class="text-3xl sm:text-4xl font-bold text-blue-400">24/7</div>
+                    <p class="text-gray-400 text-sm mt-2">Support Available</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-24 px-4 sm:px-6 lg:px-8 bg-gray-900">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl sm:text-5xl font-bold mb-4 leading-tight">Powerful Features Built for Modern Living</h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">Experience cutting-edge technology designed to enhance every aspect of your daily life with seamless integration and intelligent automation.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1: Automated Systems -->
+                <div class="bg-gray-800 rounded-2xl p-8 hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-gray-700 hover:border-blue-500">
+                    <div class="w-14 h-14 bg-blue-500 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5a4 4 0 100-8 4 4 0 000 8z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Automated Systems</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">Control your entire home environment with intelligent automation. From climate management to lighting schedules, our advanced system learns your preferences and adjusts automatically to create the perfect atmosphere for every moment of your day.</p>
+                    <ul class="space-y-2 text-gray-300 text-sm">
+                        <li class="flex items-center space-x-2">
+                            <svg class="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Smart scheduling and routines</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg class="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Voice control integration</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg class="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Remote access from anywhere</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Feature 2: High-Grade Security -->
+                <div class="bg-gray-800 rounded-2xl p-8 hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-gray-700 hover:border-blue-500">
+                    <div class="w-14 h-14 bg-blue-500 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m7.784-4.817a.75.75 0 00-1.069 0l-15.208 15.209a.75.75 0 001.069 1.069L9.007 4.72a.75.75 0 001.069 0l15.208-15.209a.75.75 0 00-1.069-1.069L9.007 4.72z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">High-Grade Security</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">Protect what matters most with enterprise-level security infrastructure. Our multi-layered defense system combines advanced encryption, real-time monitoring, and intelligent threat detection to keep your home and family safe 24/7.</p>
+                    <ul class="space-y-2 text-gray-300 text-sm">
+                        <li class="flex items-center space-x-2">
+                            <svg class="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>256-bit encryption standards</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg class="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Real-time threat alerts</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg class="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Biometric authentication</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Feature 3: Advanced Filtration -->
+                <div class="bg-gray-800 rounded-2xl p-8 hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-gray-700 hover:border-blue-500">
+                    <div class="w-14 h-14 bg-blue-500 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.045-.75.045m.75-.045v.005m0 0c.248 0 .497-.023.75-.045m0 0h.008v.005m0 0v5.714c0 .592.233 1.162.659 1.591L9.75 15m0 0l4.008 4.008m0 0l7.07-7.071a2.25 2.25 0 00-3.182-3.182L15.75 9m0 0l3.409-3.409"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Advanced Filtration</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">Enjoy pristine, pure water with our state-of-the-art multi-stage filtration system. Removing contaminants, bacteria, and impurities, our technology ensures every drop you drink meets the highest quality standards for your family's health and wellness.</p>
+                    <ul class="space-y-2 text-gray-300 text-sm">
+                        <li class="flex items-center space-x-2">
+                            <svg class="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Multi-stage purification process</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg class="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Removes 99.9% of contaminants</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg class="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Smart filter replacement alerts</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-24 px-4 sm:px-6 lg:px-8 bg-gray-800">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl sm:text-5xl font-bold mb-4 leading-tight">Transform Your Daily Life</h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">Discover the tangible benefits that make a real difference in how you live, keeping your family safe, and ensuring wellness.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Benefit 1 -->
+                <div class="bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl p-10 border border-gray-600 hover:border-blue-500 transition-all duration-300">
+                    <div class="flex items-start space-x-4">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500">
+                                <svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-white mb-3">Effortless Daily Routines</h3>
+                            <p class="text-gray-300 leading-relaxed">Automate repetitive tasks and reclaim hours every week. Let intelligent systems handle lighting, temperature, and security while you focus on what truly matters. Experience the freedom of a home that anticipates your needs and adapts to your lifestyle seamlessly.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl p-10 border border-gray-600 hover:border-blue-500 transition-all duration-300">
+                    <div class="flex items-start space-x-4">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500">
+                                <svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-white mb-3">Unwavering Safety</h3>
+                            <p class="text-gray-300 leading-relaxed">Sleep soundly knowing your home is protected by military-grade security systems. Real-time monitoring, instant alerts, and rapid response protocols ensure your family remains safe at all times. Advanced sensors detect threats before they become problems, providing peace of mind around the clock.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl p-10 border border-gray-600 hover:border-blue-500 transition-all duration-300">
+                    <div class="flex items-start space-x-4">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500">
+                                <svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5a4 4 0 100-8 4 4 0 000 8z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-white mb-3">Pure Drinking Water</h3>
+                            <p class="text-gray-300 leading-relaxed">Hydrate with confidence knowing every drop meets pharmaceutical-grade purity standards. Our advanced filtration removes harmful contaminants, bacteria, and chemicals, delivering crystal-clear water that tastes better and supports optimal health for your entire family.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Benefits Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+                <div class="flex items-center space-x-6 bg-gray-700 rounded-2xl p-8 border border-gray-600">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-blue-500 bg-opacity-20">
+                            <svg class="h-8 w-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-white mb-1">Energy Efficient</h4>
+                        <p class="text-gray-300 text-sm">Reduce your carbon footprint and energy bills by up to 40% with smart optimization.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center space-x-6 bg-gray-700 rounded-2xl p-8 border border-gray-600">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-blue-500 bg-opacity-20">
+                            <svg class="h-8 w-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-white mb-1">Cost Savings</h4>
+                        <p class="text-gray-300 text-sm">Save money on utilities, maintenance, and emergency repairs with preventive automation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section with Background -->
+    <section class="relative py-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=400&fit=crop'); background-blend-mode: overlay;" alt="Smart home technology">
+            <div class="absolute inset-0 bg-gray-900 opacity-70"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl sm:text-5xl font-bold mb-6 leading-tight">Ready to Transform Your Home?</h2>
+            <p class="text-xl text-gray-300 mb-8 leading-relaxed max-w-2xl mx-auto">Join thousands of satisfied customers who have already upgraded their lifestyle. Experience the perfect blend of convenience, security, and wellness today.</p>
+            <a href="https://api.leadconnectorhq.com/widget/form/1joHvpGOJwQ91mVnYpAJ" class="gradient-accent text-white px-10 py-4 rounded-full font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-flex items-center space-x-2">
+                <span>Start Your Journey Now</span>
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 px-4 sm:px-6 lg:px-8 bg-gray-900">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl sm:text-5xl font-bold mb-4 leading-tight">Loved by Homeowners Everywhere</h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">Discover why thousands of families trust us to enhance their homes and improve their quality of life.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-800 rounded-2xl p-8 border border-gray-700 hover:shadow-2xl hover:scale-105 transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-1">
+                            <h4 class="text-lg font-bold text-white">Sarah Mitchell</h4>
+                            <p class="text-gray-400 text-sm">Marketing Director, Chicago</p>
+                        </div>
+                        <div class="flex space-x-1">
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed">"The automated systems have completely transformed how we live. I save at least 10 hours per week on household tasks, and the security features give me incredible peace of mind when traveling. The water filtration is noticeably superior to our old system."</p>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-800 rounded-2xl p-8 border border-gray-700 hover:shadow-2xl hover:scale-105 transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-1">
+                            <h4 class="text-lg font-bold text-white">James Rodriguez</h4>
+                            <p class="text-gray-400 text-sm">Entrepreneur, Austin</p>
+                        </div>
+                        <div class="flex space-x-1">
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed">"Outstanding investment! The security system detected a potential break-in attempt that we would have missed. Customer support is responsive and knowledgeable. My energy bills dropped significantly, and my family loves the smart features."</p>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-gray-800 rounded-2xl p-8 border border-gray-700 hover:shadow-2xl hover:scale-105 transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-1">
+                            <h4 class="text-lg font-bold text-white">Emily Chen</h4>
+                            <p class="text-gray-400 text-sm">Nurse, San Francisco</p>
+                        </div>
+                        <div class="flex space-x-1">
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed">"As a healthcare professional, I'm very conscious about water quality for my family. The filtration system is exceptional and removes impurities I can actually see. The automation features are intuitive, and the security gives me confidence that my home is always protected."</p>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="bg-gray-800 rounded-2xl p-8 border border-gray-700 hover:shadow-2xl hover:scale-105 transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-1">
+                            <h4 class="text-lg font-bold text-white">David Thompson</h4>
+                            <p class="text-gray-400 text-sm">Retired Executive, Denver</p>
+                        </div>
+                        <div class="flex space-x-1">
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed">"Absolutely impressed with the complete package. The installation was seamless, and the support team made everything easy to understand. My home is now more efficient, more secure, and my grandchildren love using the smart features when they visit. Highly recommended!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-24 px-4 sm:px-6 lg:px-8 bg-gray-800">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl sm:text-5xl font-bold mb-4 leading-tight">About Duby LLC</h2>
+                <p class="text-xl text-gray-400">Learn about our mission to transform modern living</p>
+            </div>
+
+            <div class="space-y-8 text-gray-300 leading-relaxed text-lg">
+                <p class="bg-gray-700 rounded-2xl p-8 border border-gray-600">
+                    Founded in 2015, Duby LLC emerged from a simple yet powerful vision: to create comprehensive home solutions that seamlessly integrate automation, security, and wellness technology. Our founders, recognizing the fragmented nature of home improvement services, set out to build an ecosystem where cutting-edge technology meets intuitive design. Starting as a small team of engineers and designers passionate about innovation, we've grown into a trusted partner for thousands of homeowners who demand more from their living spaces. Today, we continue to push the boundaries of what's possible in smart home technology, maintaining our commitment to excellence and customer satisfaction.
+                </p>
+                
+                <p class="bg-gray-700 rounded-2xl p-8 border border-gray-600">
+                    At Duby LLC, our mission is clear: to empower families with intelligent, secure, and healthy living environments that enhance their quality of life. We believe that technology should serve people, not complicate their lives. Our core values—innovation, reliability, and customer-centricity—guide every decision we make. We're committed to continuous improvement, investing heavily in research and development to stay ahead of industry trends. Beyond products and services, we're dedicated to building a community of like-minded individuals who value their homes, their security, and their wellbeing. We stand behind our solutions with industry-leading warranties, 24/7 support, and a genuine commitment to your satisfaction.
+                </p>
+            </div>
+
+            <!-- Company Stats -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+                <div class="bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl p-8 text-center">
+                    <div class="text-4xl font-bold text-white mb-2">10K+</div>
+                    <p class="text-blue-100">Satisfied Customers</p>
+                </div>
+                <div class="bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl p-8 text-center">
+                    <div class="text-4xl font-bold text-white mb-2">50+</div>
+                    <p class="text-blue-100">Team Members</p>
+                </div>
+                <div class="bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl p-8 text-center">
+                    <div class="text-4xl font-bold text-white mb-2">99.9%</div>
+                    <p class="text-blue-100">Customer Satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-24 px-4 sm:px-6 lg:px-8 bg-gray-900">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl sm:text-5xl font-bold mb-4 leading-tight">Frequently Asked Questions</h2>
+                <p class="text-xl text-gray-400">Find answers to common questions about our services and solutions.</p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item bg-gray-800 rounded-2xl border border-gray-700 overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-gray-700 transition-colors duration-300 cursor-pointer text-left">
+                        <h3 class="text-lg font-bold text-white">How long does installation typically take?</h3>
+                        <svg class="faq-icon w-6 h-6 text-blue-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden px-8 py-6 bg-gray-700 border-t border-gray-600 text-gray-300 leading-relaxed transition-all duration-300">
+                        <p>Installation time varies depending on your home's size and the systems you're implementing. For a typical residential setup, our expert installation team completes the process in 2-3 days. We handle everything from equipment setup to system configuration and testing. We'll schedule the installation at your convenience and provide detailed guidance on using your new systems. Our team works efficiently to minimize disruption to your daily routine while ensuring everything is perfectly calibrated for optimal performance.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item bg-gray-800 rounded-2xl border border-gray-700 overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-gray-700 transition-colors duration-300 cursor-pointer text-left">
+                        <h3 class="text-lg font-bold text-white">Is my data secure and private?</h3>
+                        <svg class="faq-icon w-6 h-6 text-blue-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden px-8 py-6 bg-gray-700 border-t border-gray-600 text-gray-300 leading-relaxed transition-all duration-300">
+                        <p>Absolutely. We employ military-grade 256-bit encryption for all data transmission and storage. Your personal information and home automation data are protected by multiple layers of security protocols. We never share your data with third parties without explicit consent, and we comply with all major data protection regulations including GDPR and CCPA. Our systems undergo regular security audits by independent cybersecurity firms to ensure the highest standards. You maintain complete control over your data and can review or delete any information at any time through your account settings.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item bg-gray-800 rounded-2xl border border-gray-700 overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-gray-700 transition-colors duration-300 cursor-pointer text-left">
+                        <h3 class="text-lg font-bold text-white">What happens if there's a power outage?</h3>
+                        <svg class="faq-icon w-6 h-6 text-blue-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden px-8 py-6 bg-gray-700 border-t border-gray-600 text-gray-300 leading-relaxed transition-all duration-300">
+                        <p>Our systems are designed with redundancy and backup power in mind. All critical security components include battery backup that keeps your system operational for 24-48 hours during a power outage. The security system will continue monitoring and can send alerts to your phone if any unusual activity is detected. Once power is restored, your system automatically resumes full operation without requiring manual intervention. We also recommend having a backup internet connection (like a mobile hotspot) for continuous remote access to your systems during extended outages.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item bg-gray-800 rounded-2xl border border-gray-700 overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-gray-700 transition-colors duration-300 cursor-pointer text-left">
+                        <h3 class="text-lg font-bold text-white">How often do water filters need replacement?</h3>
+                        <svg class="faq-icon w-6 h-6 text-blue-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden px-8 py-6 bg-gray-700 border-t border-gray-600 text-gray-300 leading-relaxed transition-all duration-300">
+                        <p>Filter replacement intervals depend on your water quality and usage patterns. Typically, pre-filters require replacement every 3-6 months, while the main filtration cartridge lasts 6-12 months. Our smart monitoring system tracks filter performance and sends you automatic notifications when replacement is needed. We offer convenient filter subscription services with delivery right to your door, and replacement is a simple 5-minute process that doesn't require professional assistance. We also provide guidance on which filters are best for your specific water conditions.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item bg-gray-800 rounded-2xl border border-gray-700 overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-gray-700 transition-colors duration-300 cursor-pointer text-left">
+                        <h3 class="text-lg font-bold text-white">What kind of warranty and support do you offer?</h3>
+                        <svg class="faq-icon w-6 h-6 text-blue-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden px-8 py-6 bg-gray-700 border-t border-gray-600 text-gray-300 leading-relaxed transition-all duration-300">
+                        <p>We stand behind our products with a comprehensive 5-year warranty covering all equipment and components. Our 24/7 customer support team is available via phone, email, chat, and video call to assist with any questions or issues. We provide detailed user training, online documentation, and video tutorials to help you maximize your system's potential. Annual maintenance visits are included in our premium support plan to ensure everything continues running smoothly. If issues arise, we prioritize rapid resolution with replacement equipment shipped immediately if needed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-blue-800">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-4 text-white">Ready to Upgrade Your Home?</h2>
+            <p class="text-lg text-blue-100 mb-8">Join thousands of happy customers experiencing the Duby LLC difference today.</p>
+            <a href="https://api.leadconnectorhq.com/widget/form/1joHvpGOJwQ91mVnYpAJ" class="inline-block bg-white text-blue-600 px-10 py-4 rounded-full font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300">
+                Get Started Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 rounded-full gradient-accent flex items-center justify-center">
+                            <i class="fas fa-home text-white text-lg"></i>
+                        </div>
+                        <span class="text-xl font-bold text-white">Duby LLC</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">Transforming homes with smart automation, superior security, and advanced water filtration technology.</p>
+                    <div class="flex space-x-4 mt-6">
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Products -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-6">Products</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Automated Systems</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Security Solutions</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Water Filtration</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Installation Services</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-6">Support</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">FAQ</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Contact Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Support Center</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Warranty Info</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-6">Legal</h4>
+                    <ul class="space-y-3">
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Terms of Service</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="border-t border-gray-800 pt-8 mb-8">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-full bg-blue-500 bg-opacity-20 flex items-center justify-center">
+                            <i class="fas fa-envelope text-blue-400"></i>
+                        </div>
+                        <div>
+                            <p class="text-gray-500 text-xs uppercase tracking-wide">Email</p>
+                            <a href="mailto:sam@dubyallc.com" class="text-white hover:text-blue-400 transition-colors duration-300">sam@dubyallc.com</a>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-full bg-blue-500 bg-opacity-20 flex items-center justify-center">
+                            <i class="fas fa-phone text-blue-400"></i>
+                        </div>
+                        <div>
+                            <p class="text-gray-500 text-xs uppercase tracking-wide">Phone</p>
+                            <p class="text-white">1-800-DUBY-LLC</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-full bg-blue-500 bg-opacity-20 flex items-center justify-center">
+                            <i class="fas fa-headset text-blue-400"></i>
+                        </div>
+                        <div>
+                            <p class="text-gray-500 text-xs uppercase tracking-wide">Support</p>
+                            <p class="text-white">24/7 Available</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="border-t border-gray-800 pt-8 text-center">
+                <p class="text-gray-400 text-sm">&copy; 2025 Duby LLC. All rights reserved. Designed for modern living.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
